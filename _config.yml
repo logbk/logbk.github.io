@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://
+title: Logbook{};
+subtitle: Quick fixes.
+author: Francisco Gonzalez
 simple_search: https://www.google.com/search
 description:
 
@@ -39,7 +39,17 @@ rdiscount:
     - autolink
     - footnotes
     - smart
+
+markdown: kramdown
+kramdown:
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: nil
+    coderay_css: class
+
 highlighter: pygments # default python pygments have been replaced by pygments.rb
+
+pygments: false
 
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
