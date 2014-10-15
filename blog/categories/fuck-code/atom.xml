@@ -4,7 +4,7 @@
   <title><![CDATA[Category: fuck_code | Logbook{};]]></title>
   <link href="http:///blog/categories/fuck-code/atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2014-10-15T23:32:26+02:00</updated>
+  <updated>2014-10-16T00:08:13+02:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Francisco Gonzalez]]></name>
@@ -25,6 +25,44 @@
 <p>Las órdenes efectuadas en el lenguaje LOGO se denominan primitivas. Las primitivas se escriben, en mayúsculas, en la ventana de trabajo, y para que el programa las ejecute basta pulsar la tecla Intro del teclado. El cursor, situado en la ventana de gráficos, realizará las instrucciones indicadas. Este cursor tiene forma de tortuga, por lo que el lenguaje de programación LOGO es conocido universalmente como el «mundo de la tortuga». También puede aparecer una tercera ventana, la ventana de textos, que muestra mensajes proporcionados por el programa.</p>
 
 <!--more-->
+
+<h3 id="rdenes-primitivas">Órdenes Primitivas:</h3>
+
+<ul>
+  <li><strong>BORRAPANTALLABP</strong> Deja en blanco la ventana</li>
+  <li><strong>AVANZA nAV n</strong> La tortuga avanza una distancia n</li>
+  <li><strong>RETROCEDE nRE n</strong> La tortuga retrocede una distancia n</li>
+  <li><strong>GIRADERECHA nGD n</strong> La tortuga gira un ángulo n hacia la derecha</li>
+  <li><strong>GIRAIZQUIERDA nGI n</strong> La tortuga gira un ángulo n hacia la izquierda</li>
+  <li><strong>SUBELÁPIZ SL</strong> La tortuga no deja trazo al desplazarse</li>
+  <li><strong>BAJALÁPIZ BL</strong> La tortuga dibuja su trayectoria a medida que se desplaza</li>
+  <li><strong>PONCOLOR nPONCL n</strong> Cambia el color de la tortuga</li>
+  <li><strong>RELLENA</strong> Colorea el interior de una figura cerrada</li>
+  <li><strong>REPITE n[…]</strong> Repite n veces la orden indicada entre los corchetes</li>
+  <li><strong>ESPERA n</strong> Espera un tiempo n antes de realizar la siguiente acción</li>
+  <li><strong>OCULTATORTUGA OT</strong> Oculta todas las tortugas que estén activas</li>
+</ul>
+
+<p>Si queremos indicar un grupo de instrucciones que ocupen varias líneas, de forma que el ordenador entienda todo ello como un conjunto y lo ejecute a la vez, se debe definir un procedimiento, que ya constituye un programa propiamente dicho.</p>
+
+<p>Para ello son necesarias dos nuevas primitivas: PARA dará comienzo al procedimiento y FIN lo terminará. Una vez definido, bastará con escribir su nombre y, tras pulsar la tecla Intro, se ejecutará el procedimiento completo.</p>
+
+<p>Al igual que ocurre con otros lenguajes de programación, unos procedimientos pueden utilizarse como primitivas de otros procedimientos, e incluso un mismo procedimiento puede «llamarse a sí mismo» de forma recursiva.</p>
+
+<p>También podemos emplear condiciones para que se ejecuten determinadas acciones en función de ellas. Para ello se utiliza la primitiva SI, así:</p>
+
+<p>SI condición [acción]</p>
+
+<p>Si se cumple la condición indicada, se realizará la acción; pero si no se cumple, el programa pasará a ejecutar la línea siguiente.</p>
+
+<p>Por ejemplo, la sentencia siguiente permitirá parar la ejecución de un procedimiento cuando se pulse cualquier tecla del teclado:</p>
+
+<p><strong>SI TECLA? [ALTO]</strong>
+&gt; <em>**
+&gt;<a href="http://rbytes.org/descargar/cat/educativos/varios/xlogo/#">Descargar XLogo (versión libre)</a>
+&gt; **</em>
+- - -
+<img src="http://www.naec.org.uk/artefacts/photos/Jessop%20Turtle.JPG/image_preview" alt="Esta es una tortuga que se conecta via infrarojo y se mueve con este programa:" title="Tortuga_LOGO" /></p>
 ]]></content>
   </entry>
   
