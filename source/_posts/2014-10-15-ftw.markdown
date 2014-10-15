@@ -1,0 +1,14 @@
+---
+layout: post
+title: "FTW"
+date: 2014-10-15 23:26:24 +0200
+comments: true
+categories: [fuck_code]
+---
+![LOGO](http://www.annehelmond.nl/wordpress/wp-content/uploads/2007/11/logo_mit.png "LOGO")
+
+El lenguaje de programación LOGO fue desarrollado en los años sesenta del pasado siglo en el MIT (Instituto Tecnológico de Massachusetts) con el objetivo de crear un lenguaje sencillo destinado a fines educativos y control de sistemas.
+
+Las órdenes efectuadas en el lenguaje LOGO se denominan primitivas. Las primitivas se escriben, en mayúsculas, en la ventana de trabajo, y para que el programa las ejecute basta pulsar la tecla Intro del teclado. El cursor, situado en la ventana de gráficos, realizará las instrucciones indicadas. Este cursor tiene forma de tortuga, por lo que el lenguaje de programación LOGO es conocido universalmente como el «mundo de la tortuga». También puede aparecer una tercera ventana, la ventana de textos, que muestra mensajes proporcionados por el programa.
+
+<!--more-->
