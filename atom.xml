@@ -4,7 +4,7 @@
   <title><![CDATA[Logbook{};]]></title>
   <link href="http:///atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2014-10-15T20:48:29+02:00</updated>
+  <updated>2014-10-15T23:02:36+02:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Francisco Gonzalez]]></name>
@@ -18,18 +18,20 @@
     <link href="http:///blog/2014/10/15/origin/"/>
     <updated>2014-10-15T20:42:57+02:00</updated>
     <id>http:///blog/2014/10/15/origin</id>
-    <content type="html"><![CDATA[<h1 id="huolaaaaaa">Huolaaaaaa!</h1>
+    <content type="html"><![CDATA[<p><img src="http://i60.tinypic.com/21152tg.jpg" alt="Software Programmer" title="Software Programmer" /></p>
+
 <p>¡Por fin en la nube! Ha costado lo suyo pero lo he conseguido hahahahaha
 Hace unos días, me dio por montar un blog. Si, así de impulsivo soy, y ya que estaba trabajando con la tecnología de <a href="http://octopress.org/">Octopress</a> pues me dije Let’s go! Y aquí estamos.</p>
 
+<!--more-->
 <p>Ya fuera de cachondeo, llevaba tiempo pensando en hacer un blog tecnológico. Un blog donde poner lo que día a día voy aprendiendo, descubriendo y cacharreando. Soluciones, técnicas y métodos que voy aprendiendo (si, soy otro kamikaze que estudia Ingeniería del Software xD) en mi carrera.</p>
 
 <p>Lo primero que quiero abordar, ya que este blog está montado con tecnología Octopress y alojado en Github, es eso mismo: <strong>“Cómo crear tu propio blog mediante Octopress y subirlo a Github Pages”</strong>.</p>
 
 <p>Aún no he pensado si lo haré todo en un súper post-tocho en el que abarcaré todo, o lo dividiré en dos o tres “entregas” para que no se haga muy pesado. Haga lo que haga, voy a empezar por ahí. Pero tengo mucho más que compartir.</p>
 
-<h2 id="as-que-nada-para-los-que-os-topis-de-casualidad-con-mi-blog-no-os-vayais-quedaos-pronto-habr-ms-">Así que nada, para los que os topéis de casualidad con mi blog… <em>NO OS VAYAIS, QUEDAOS</em>. Pronto habrá más ;)</h2>
-<p><img src="http://i60.tinypic.com/21152tg.jpg" alt="Software Programmer" title="Software Programmer" /></p>
+<p>Así que nada, para los que os topéis de casualidad con mi blog… <strong>NO OS VAYAIS, QUEDAOS</strong>. Pronto habrá más ;)</p>
+
 ]]></content>
   </entry>
   
