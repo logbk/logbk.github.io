@@ -12,3 +12,39 @@ El lenguaje de programación LOGO fue desarrollado en los años sesenta del pasa
 Las órdenes efectuadas en el lenguaje LOGO se denominan primitivas. Las primitivas se escriben, en mayúsculas, en la ventana de trabajo, y para que el programa las ejecute basta pulsar la tecla Intro del teclado. El cursor, situado en la ventana de gráficos, realizará las instrucciones indicadas. Este cursor tiene forma de tortuga, por lo que el lenguaje de programación LOGO es conocido universalmente como el «mundo de la tortuga». También puede aparecer una tercera ventana, la ventana de textos, que muestra mensajes proporcionados por el programa.
 
 <!--more-->
+
+### Órdenes Primitivas:
+
+* **BORRAPANTALLABP** Deja en blanco la ventana
+* **AVANZA nAV n** La tortuga avanza una distancia n
+* **RETROCEDE nRE n** La tortuga retrocede una distancia n
+* **GIRADERECHA nGD n** La tortuga gira un ángulo n hacia la derecha
+* **GIRAIZQUIERDA nGI n** La tortuga gira un ángulo n hacia la izquierda
+* **SUBELÁPIZ SL** La tortuga no deja trazo al desplazarse
+* **BAJALÁPIZ BL** La tortuga dibuja su trayectoria a medida que se desplaza
+* **PONCOLOR nPONCL n** Cambia el color de la tortuga
+* **RELLENA** Colorea el interior de una figura cerrada
+* **REPITE n[...]** Repite n veces la orden indicada entre los corchetes
+* **ESPERA n** Espera un tiempo n antes de realizar la siguiente acción
+* **OCULTATORTUGA OT** Oculta todas las tortugas que estén activas
+
+Si queremos indicar un grupo de instrucciones que ocupen varias líneas, de forma que el ordenador entienda todo ello como un conjunto y lo ejecute a la vez, se debe definir un procedimiento, que ya constituye un programa propiamente dicho.
+
+Para ello son necesarias dos nuevas primitivas: PARA dará comienzo al procedimiento y FIN lo terminará. Una vez definido, bastará con escribir su nombre y, tras pulsar la tecla Intro, se ejecutará el procedimiento completo.
+
+Al igual que ocurre con otros lenguajes de programación, unos procedimientos pueden utilizarse como primitivas de otros procedimientos, e incluso un mismo procedimiento puede «llamarse a sí mismo» de forma recursiva.
+
+También podemos emplear condiciones para que se ejecuten determinadas acciones en función de ellas. Para ello se utiliza la primitiva SI, así:
+
+SI condición [acción]
+
+Si se cumple la condición indicada, se realizará la acción; pero si no se cumple, el programa pasará a ejecutar la línea siguiente.
+
+Por ejemplo, la sentencia siguiente permitirá parar la ejecución de un procedimiento cuando se pulse cualquier tecla del teclado:
+
+**SI TECLA? [ALTO]**
+> ***
+>[Descargar XLogo (versión libre)](http://rbytes.org/descargar/cat/educativos/varios/xlogo/#)
+> ***
+- - -
+![Esta es una tortuga que se conecta via infrarojo y se mueve con este programa:](http://www.naec.org.uk/artefacts/photos/Jessop%20Turtle.JPG/image_preview "Tortuga_LOGO")
