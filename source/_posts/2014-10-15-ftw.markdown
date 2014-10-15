@@ -36,15 +36,15 @@ Al igual que ocurre con otros lenguajes de programación, unos procedimientos pu
 
 También podemos emplear condiciones para que se ejecuten determinadas acciones en función de ellas. Para ello se utiliza la primitiva SI, así:
 
-SI condición [acción]
+**SI condición [acción]**
 
 Si se cumple la condición indicada, se realizará la acción; pero si no se cumple, el programa pasará a ejecutar la línea siguiente.
 
 Por ejemplo, la sentencia siguiente permitirá parar la ejecución de un procedimiento cuando se pulse cualquier tecla del teclado:
 
 **SI TECLA? [ALTO]**
-> ***
->[Descargar XLogo (versión libre)](http://rbytes.org/descargar/cat/educativos/varios/xlogo/#)
-> ***
-- - -
+
+->[Descargar XLogo (versión libre)](http://rbytes.org/descargar/cat/educativos/varios/xlogo/#)<-
+
+---
 ![Esta es una tortuga que se conecta via infrarojo y se mueve con este programa:](http://www.naec.org.uk/artefacts/photos/Jessop%20Turtle.JPG/image_preview "Tortuga_LOGO")
