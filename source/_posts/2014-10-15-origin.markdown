@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lets Go!"
-date: 2014-10-15
+date: 2014-10-15 22:30
 comments: true
 categories: [fuck_code]
 ---
