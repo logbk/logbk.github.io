@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Origin"
+title: "Lets Go!"
 date: 2014-10-15 20:42:57 +0200
 comments: true
-categories: 
+categories: [fuck_code]
 ---
 ![Software Programmer](http://i60.tinypic.com/21152tg.jpg "Software Programmer")
 
