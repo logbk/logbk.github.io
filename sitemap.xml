@@ -28,39 +28,47 @@
   
   
   <url>
-    <loc>http:///archives/</loc>
-    <lastmod>2014-10-15T17:44:33+02:00</lastmod>
+    <loc>http:///blog/archives/</loc>
+    <lastmod>2014-10-15T17:51:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http:///blog/archives/</loc>
-    <lastmod>2014-10-15T17:44:33+02:00</lastmod>
+    <loc>http:///archives/</loc>
+    <lastmod>2014-10-15T17:51:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http:///about/</loc>
+    <lastmod>2014-10-15T17:51:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http:///blog/</loc>
-    <lastmod>2014-10-15T17:44:33+02:00</lastmod>
+    <lastmod>2014-10-15T17:51:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http:///</loc>
-    <lastmod>2014-10-15T17:44:33+02:00</lastmod>
+    <lastmod>2014-10-15T17:51:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  
-  
   <url>
-    <loc>http:///about/index.html</loc>
-    <lastmod>2014-10-15T14:24:47Z</lastmod>
-    <priority>0.6</priority>
+    <loc>http:///portfolio/</loc>
+    <lastmod>2014-10-15T17:51:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
+  
+  
   
 </urlset>
