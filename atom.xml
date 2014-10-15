@@ -4,7 +4,7 @@
   <title><![CDATA[Logbook{};]]></title>
   <link href="http:///atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2014-10-15T23:18:45+02:00</updated>
+  <updated>2014-10-15T23:31:23+02:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Francisco Gonzalez]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FTW]]></title>
+    <link href="http:///blog/2014/10/15/ftw/"/>
+    <updated>2014-10-15T23:26:24+02:00</updated>
+    <id>http:///blog/2014/10/15/ftw</id>
+    <content type="html"><![CDATA[<p><img src="http://www.annehelmond.nl/wordpress/wp-content/uploads/2007/11/logo_mit.png" alt="LOGO" title="LOGO" /></p>
+
+<p>El lenguaje de programación LOGO fue desarrollado en los años sesenta del pasado siglo en el MIT (Instituto Tecnológico de Massachusetts) con el objetivo de crear un lenguaje sencillo destinado a fines educativos y control de sistemas.</p>
+
+<p>Las órdenes efectuadas en el lenguaje LOGO se denominan primitivas. Las primitivas se escriben, en mayúsculas, en la ventana de trabajo, y para que el programa las ejecute basta pulsar la tecla Intro del teclado. El cursor, situado en la ventana de gráficos, realizará las instrucciones indicadas. Este cursor tiene forma de tortuga, por lo que el lenguaje de programación LOGO es conocido universalmente como el «mundo de la tortuga». También puede aparecer una tercera ventana, la ventana de textos, que muestra mensajes proporcionados por el programa.</p>
+
+<!--more-->
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lets Go!]]></title>
