@@ -1,0 +1,12 @@
+---
+layout: post
+title: "OCTOPRESS Parte 1"
+date: 2014-10-16 16:07:23 +0200
+comments: true
+categories: [octopress]
+---
+Esto es un puto post de octopress
+
+!<--more-->
+
+Aqui sigue mi puto post.
