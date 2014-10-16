@@ -4,7 +4,7 @@
   <title><![CDATA[Logbook{};]]></title>
   <link href="http:///atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2014-10-16T16:42:11+02:00</updated>
+  <updated>2014-10-16T17:04:11+02:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Francisco Gonzalez]]></name>
@@ -48,14 +48,14 @@
 
 <h2 id="antes-de-empezar">-Antes de empezar</h2>
 <ol>
-  <li>Insalar <a href="http://git-scm.com/">Git</a></li>
+  <li>Instalar <a href="http://git-scm.com/">Git</a></li>
   <li>Instalar Ruby 1.9.3 o superior utilizando <a href="http://octopress.org/docs/setup/rbenv/">rbenv</a> o <a href="http://octopress.org/docs/setup/rvm/">RVM</a>
-(Puedes comprovar la versión de ruby que tienes en tu equipo abriendo un terminal y tecleando <img src="" alt="ruby --version" />)</li>
+(Puedes comprobar la versión de ruby que tienes en tu equipo abriendo un terminal y tecleando <img src="" alt="ruby --version" /> )</li>
 </ol>
 
 <h2 id="instalando-octopress">-Instalando Octopress</h2>
 
-<p>Hacemos un fork de Octopress en nuestro equipo:</p>
+<p>Hacemos un <em>fork</em> de Octopress en nuestro equipo:</p>
 
 <pre><code>git clone git://github.com/imathis/octopress.git octopress
 cd octopress
