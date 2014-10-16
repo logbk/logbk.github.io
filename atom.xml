@@ -4,7 +4,7 @@
   <title><![CDATA[Logbook{};]]></title>
   <link href="http:///atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2014-10-16T16:18:16+02:00</updated>
+  <updated>2014-10-16T16:19:43+02:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Francisco Gonzalez]]></name>
@@ -12,27 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress1]]></title>
-    <link href="http:///blog/2014/10/16/octopress1/"/>
-    <updated>2014-10-16T00:00:00+02:00</updated>
-    <id>http:///blog/2014/10/16/octopress1</id>
-    <content type="html"><![CDATA[<p><img src="http://blog-guerrero.rhcloud.com/images/octopress2.jpg" alt="Octopress" title="Octopress" /></p>
-
-<p>En este primer post sobre Octopress vamos a abordar los siguientes puntos:</p>
-
-<ul>
-  <li><em>Conociendo Octopress</em></li>
-  <li><em>Instalación</em></li>
-  <li><em>Configuración</em></li>
-</ul>
-
-<!--more-->
-
-<p>Aqui sigue mi puto post.fkasfñkalvgañsk5ljdfakñljfdakjfaskfdaa</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[FTW]]></title>
