@@ -1,0 +1,118 @@
+---
+layout: post
+title: "OCTOPRESS_1"
+date: 2014-10-16 15:55:56 +0200
+comments: true
+categories: [octopress][blogging][ruby][github]
+---
+#OCTOPRESS: "Introducción, Instalación y Configuración".
+ 
+ ![Octopress](http://blog-guerrero.rhcloud.com/images/octopress2.jpg "Octopress")
+ 
+ 
+ En esta primer post sobre Octopress vamos a abordar los siguientes puntos:
+ * Conociendo Octopress
+ * Instalación
+ * Configuración
+
+<!--MORE-->
+---
+##**1. CONOCIENDO OCTOPRESS**
+
+
+>>*First, I want to stress that Octopress is a blogging framework for hackers. You should be comfortable running shell commands and familiar with the basics of Git. If that sounds daunting, Octopress probably isn't for you. - [Octopress.org](http://octopress.org/)*
+
+
+Octopress es una platarforma de blogging que funciona de una manera especial. En lugar de servir paginas dinamicas con PHP como muchos otros, sirve paginas estaticas. Punto. Sin problemas de seguridad, sin problemas de actualizaciones, y sin (casi xD) problemas de carga (necesita muchiiiiiisima menos potencia en el servidor que un blog con PHP+MySQL, por ejemplo.
+
+Cada vez que escribes un articulo, hay que regenerar el sitio “entero”. Para hacer todo esto comodamente, Octopress utiliza una serie de “tareas” de ruby (rake).
+
+Por un lado, se instala el Octopress propiamente dicho, que contiene el codigo fuente, las tareas, etc y por otro lado, tendremos el sitio con las paginas a publicar; el blog en si. Para publicar las paginas, podemos utilizar Heroku, tu propio servidor web, o como en mi caso, Github Pages.
+
+
+##**2. INSTALACIÓN**
+
+##-Antes de empezar
+1.  [Instalar Git](http://git-scm.com/)
+2.  Instal Ruby 1.9.3 o superior utilizando [rbenv](http://octopress.org/docs/setup/rbenv/) o [RVM](http://octopress.org/docs/setup/rvm/).
+(Puedes comprobar la versión de ruby que tienes en tu equipo abriendo un terminal y tecleando ![ruby --version]()
+
+##-Instalando Octopress
+
+Hacemos un fork de Octopress en nuestro equipo:
+
+    git clone git://github.com/imathis/octopress.git octopress
+    cd octopress
+    
+Instalamos las dependencias que Octopress va a utilizar:
+
+    gem install bundler
+    rbenv rehash #Si utilizas rbenv, se usa rehash para habilitar el comando bundle
+    bundle install
+    
+Y finalmente, instalamos el tema por defecto de Octopress:
+
+    rake install
+    
+Podemos haer una visualización de nuestro blog, aunque más tarde editemos el archivo _config.yml, para ver que nuestro blog ya está funcionando:
+
+    rake generate
+    rake preview
+    
+Ahora, abrimos el navegador y en ![localhost:4000]() debería estar nuestro blog.
+
+##**3. CONFIGURACIÓN**
+
+##Configuración Básica
+Aunque no lo creais, configurar Octopress es bastante fácil.Simplemente requiere editar el archivo ![_config.yml]() que se encuentra en la raíz del directorio del framework. Seguramente quieras cambiar el ![url](), ![title](), ![author]() y habilitar algunos de los conocidos como *3rd party services*.
+
+    url:                # Dirección URL para reescritura de RSS, etc
+    title:              # Usado en la cabecera y las etiquetas de titulo
+    subtitle:           # Descripción usada en la cabecera del sitio
+    author:             # Tu nombre, para RSS, Copyright, Metadata
+    simple_search:      # Buscador utilizado para realizar las busquedas (Genius                          xd)
+    description:        # Una meta-descripción de tu blog, para indexar el sitio
+    date_format:        # Formato de fecha usado por la función strftime de Ruby
+    subscribe_rss:      # Dirección URL para los feeds del blog, por defecto usa                          /atom.xml
+    subscribe_email:    # Dirección URL para suscribir por correo electrónico                             (requiere el servicio)
+    category_feeds:     # Habilita los feeds RSS por categoria (por defecto está                          desactivado)
+    email:              # Correo electrónico para los feeds del RSS, si lo deseas.
+
+##Jekyll & Plugins
+
+Estas configuraciones son para la parte de Jekyll y los Plugins del blog. Si no estás familiarizado con Jekyll, te vendrá bien echarle un ojo a la [documentación de Jekyll](http://jekyllrb.com/docs/configuration/); que abarca más opciones que no están cubiertas en el post.
+
+    root:               # Asignación de urls relativas (Por defecto: /)
+    permalink:          # Estructura Permalink en las entradas del blog
+    source:             # Directorio para archivos "source" del sitio
+    destination:        # Directorio para archivos generandos del sitio
+    plugins:            # Directorio para los plugins de Jekyll
+    code_dir:           # Directorio de fragmentos de código(para el plugin                               include_code)
+    category_dir:       # Directorio para las páginas de categorias generadas del                         blog
+ 
+    pygments:           # Resaltado de sintaxis
+    paginate:           # Post por página en el index del blog
+    pagination_dir:     # Directorio base para las direcciones url de pagination                          eg. /blog/page/2/
+    recent_posts:       # Número de posts recientes que aparecen en la barra                              lateral
+    default_asides:     # Configurar lo que aparece en la barra lateral y en qué                          orden
+
+##3rd Party Services
+
+Estos servicios ya vienen integrados en Octopress por defecto, simplemente hay que rellenar la configuración de los componentes que queremos usar en nuestro blog.
+
+* **Github**. Lista tu repositorio de Github en la barra lateral
+* **Twitter**. Añade un botón para compartir posts en Twitter
+* **Google Plus One**. Configuración para compartir mensajes y páginas en la red social Google+ 
+* **Pinboard**. Comparta sus marcadores recientes de Pinboard en la barra lateral
+* **Delicious**. Comparta sus marcadores recientes de Delicious en la barra lateral
+* **Disqus Comments**. Añadir nombre disqus para permitir comentarios en el blog
+* **Google Analytics**. Agregar ID de Google Analytics para permitir el seguimiento del blog
+* **Facebook**. Añadir botón de "Like" en Facebook
+
+>>Los diseños de Octopress leen estas configuraciones y sólo incluyen el JavaScript y HTML necesarios para los servicios habilitados.
+
+
+
+
+Y aquí termina la configuración básica de nuestro nuevo y flamante blog basado en la tecnología Octopress. En el próximo post explicaré como instalar una plantilla distinta a la que trae por defecto y la creación de nuestro primer post con Markdown. Espero que os sirva de utilidad y que os animéis a probar Octopress, ¡os va a encantar! :P
+
