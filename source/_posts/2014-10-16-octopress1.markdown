@@ -1,12 +1,18 @@
 ---
 layout: post
-title: "OCTOPRESS Parte 1"
+title: "OCTOPRESS: "Introducción, Instalación y Configuración"
 date: 2014-10-16 16:07:23 +0200
 comments: true
 categories: [octopress]
 ---
-Esto es un puto post de octopress
+![Octopress](http://blog-guerrero.rhcloud.com/images/octopress2.jpg "Octopress")
 
-!<--more-->
+En este primer post sobre Octopress vamos a abordar los siguientes puntos:
 
-Aqui sigue mi puto post.
+* *Conociendo Octopress*
+* *Instalación*
+* *Configuración*
+
+<!--more-->
+
+Aqui sigue mi puto post.fkasfñkalvgañsk5ljdfakñljfdakjfaskfdaa
