@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Logbook{};]]></title>
+  <link href="http:///blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http:///"/>
+  <updated>2014-10-16T16:28:18+02:00</updated>
+  <id>http:///</id>
+  <author>
+    <name><![CDATA[Francisco Gonzalez]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OCTOPRESS Parte 1]]></title>
+    <link href="http:///blog/2014/10/16/octopress1/"/>
+    <updated>2014-10-16T16:22:38+02:00</updated>
+    <id>http:///blog/2014/10/16/octopress1</id>
+    <content type="html"><![CDATA[<p><img src="http://blog-guerrero.rhcloud.com/images/octopress2.jpg" alt="Octopress" title="Octopress" /></p>
+
+<p>En este primer post sobre Octopress vamos a abordar los siguientes puntos:</p>
+
+<ul>
+  <li><em>Conociendo Octopress</em></li>
+  <li><em>Instalación</em></li>
+  <li><em>Configuración</em></li>
+</ul>
+
+<!--more-->
+
+<h2 id="conociendo-octopress"><strong>1. CONOCIENDO OCTOPRESS</strong></h2>
+
+<blockquote>
+  <blockquote>
+    <p><em>First, I want to stress that Octopress is a blogging framework for hackers. You should be comfortable running shell commands and familiar with the basics of Git. If that sounds daunting, Octopress probably isn’t for you. - <a href="http://octopress.org/">Octopress.org</a></em></p>
+  </blockquote>
+</blockquote>
+
+<p>Octopress es una platarforma de blogging que funciona de una manera especial. En lugar de servir paginas dinamicas con PHP como muchos otros, sirve paginas estaticas. Punto. Sin problemas de seguridad, sin problemas de actualizaciones, y sin (casi xD) problemas de carga (necesita muchiiiiiisima menos potencia en el servidor que un blog con PHP+MySQL, por ejemplo.</p>
+
+<p>Cada vez que escribes un articulo, hay que regenerar el sitio “entero”. Para hacer todo esto comodamente, Octopress utiliza una serie de “tareas” de ruby (rake).</p>
+
+<p>Por un lado, se instala el Octopress propiamente dicho, que contiene el codigo fuente, las tareas, etc y por otro lado, tendremos el sitio con las paginas a publicar; el blog en si. Para publicar las paginas, podemos utilizar Heroku, tu propio servidor web, o como en mi caso, Github Pages.</p>
+
+<h2 id="instalacin"><strong>2. INSTALACIÓN</strong></h2>
+
+]]></content>
+  </entry>
+  
+</feed>
