@@ -1,144 +1,321 @@
+<!doctype html>
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
 
-<!DOCTYPE HTML>
-<html>
-<head>
-	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
-	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<meta charset="utf-8">
-	<title>Porfolio  | Logbook{ };</title>
+<!-- A Bogdan Sandu design (http://bogdansandu.com) - Presented on DesignYourWay (http://www.designyourway.net/blog/resources/freebie-unofolio-one-page-portfolio-with-cool-css3-and-jquery-effects) -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Unofolio</title>
+        <meta name="description" content="The description of your portfolio" />
+		<meta name="keywords" content="first keyword, second keyword" />
+        <link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="refineslide.css" />
+		<link rel="stylesheet" href="font.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css' />
+		<script src="js/modernizr.js"></script>
+	    <!--[if lt IE 9]>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+    </head>
+    <body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo"><img src="images/logo.jpg" alt="Logo"/></div>
+			<div id="menu">
+				<ul>
+					<li class="menu_home"><a href="#">Home</a></li>
+					<li class="menu_about"><a href="#about_me">About</a></li>
+					<li class="menu_work"><a href="#my_work">Work</a></li>
+					<li class="menu_contact"><a href="#contact_me">Contact</a></li>
+				</ul>
+			</div>
+		</div> <!-- end header -->
+		
+		<div id="slider">
+			<div id="viewport-shadow">
 
-<meta name="author" content="Francisco Gonzalez"> 
+				<div id="viewport">
+					<div id="box">
+					  <figure class="slide">
+						<a href="http://www.deviantart.com" title=""><img src="images/slide1.jpg" alt=""></a>
+					  </figure>
+					  <figure class="slide">
+						<a rel="prettyphoto" href="http://25.media.tumblr.com/tumblr_m97ipbW0Na1rzqqmjo1_1280.jpg"><img src="images/slide2.jpg" alt=""></a>
+					  </figure>
+					  <figure class="slide">
+						<a rel="prettyphoto" href="http://24.media.tumblr.com/tumblr_m97imjGOUn1rzqqmjo1_1280.jpg"><img src="images/slide3.jpg" alt=""></a>
+					  </figure>
+					  <figure class="slide">
+						<a rel="prettyphoto" href="http://24.media.tumblr.com/tumblr_m97itxI2SI1rzqqmjo1_1280.jpg"><img src="images/slide4.jpg" alt=""></a>
+					  </figure>
+					  <figure class="slide">
+						<a rel="prettyphoto" href="http://25.media.tumblr.com/tumblr_m97ifukGCv1rzqqmjo1_1280.jpg"><img src="images/slide5.jpg" alt=""></a>
+					  </figure>
+					  <figure class="slide">
+						<a rel="prettyphoto" href="http://25.media.tumblr.com/tumblr_m97iifZqlJ1rzqqmjo1_1280.jpg"><img src="images/slide6.jpg" alt=""></a>
+					  </figure>
+					  
+					</div>
+				</div> 
 
-<meta name="description" content="Get the book Sign up to pre-order The Self-Taught Developer's Guide to Getting Paid, receive a free chapter or two, and even a discount if you're &hellip;"> <meta name="keywords" content="">
+				<div id="time-indicator"></div>
+			</div>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+          <nav class="slider-controls">
+            <ul id="controls">
+              <li><a class="goto-slide current" href="#" data-slideindex="0"></a></li>
+              <li><a class="goto-slide" href="#" data-slideindex="1"></a></li>
+              <li><a class="goto-slide" href="#" data-slideindex="2"></a></li>
+              <li><a class="goto-slide" href="#" data-slideindex="3"></a></li>
+              <li><a class="goto-slide" href="#" data-slideindex="4"></a></li>
+			  <li><a class="goto-slide" href="#" data-slideindex="5"></a></li>
+			  
+            </ul>
+          </nav>
 
-	<link href="/atom.xml" rel="alternate" title="Logbook{ };" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+		</div><!-- end slider -->
+		
+		<div id="about">
+			<a id="about_me"></a>
+			<h2>About me</h2>
+				<div id="aboutleft">
+					<img src="images/photo.jpg" alt="" />
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+				</div>
+				<div id="aboutright">
+					<div id="diagram"></div>
+					<div class="get">
+						<div class="arc">
+							<span class="text">CSS</span>
+							<input type="hidden" class="percent" value="90" />
+							<input type="hidden" class="color" value="#48a078" />
+						</div>
+						<div class="arc">
+							<span class="text">HTML</span>
+							<input type="hidden" class="percent" value="80" />
+							<input type="hidden" class="color" value="#fdc9b4" />
+						</div>
+						<div class="arc">
+							<span class="text">Photoshop</span>
+							<input type="hidden" class="percent" value="53" />
+							<input type="hidden" class="color" value="#f86b68" />
+						</div>
+						<div class="arc">
+							<span class="text">Illustrator</span>
+							<input type="hidden" class="percent" value="45" />
+							<input type="hidden" class="color" value="#fd9e34" />
+						</div>
+					</div>
+					
+					
+				</div>
+		</div><!-- end about -->
+       
+		<div id="work">
+			<a id="my_work"></a>
+			<h2>Work</h2>
+		
+			<section class="ff-container">
+				
+				<input id="select-type-all" name="radio-set-1" type="radio" class="ff-selector-type-all" checked="checked" />
+				<label for="select-type-all" class="ff-label-type-all">All</label>
+				
+				<input id="select-type-1" name="radio-set-1" type="radio" class="ff-selector-type-1" />
+				<label for="select-type-1" class="ff-label-type-1">Web Design</label>
+				
+				<input id="select-type-2" name="radio-set-1" type="radio" class="ff-selector-type-2" />
+				<label for="select-type-2" class="ff-label-type-2">Print</label>
+				
+				<input id="select-type-3" name="radio-set-1" type="radio" class="ff-selector-type-3" />
+				<label for="select-type-3" class="ff-label-type-3">Logo Design</label>
+				
+				<div class="clr"></div>
+				
+				<ul class="ff-items">
+					<li class="ff-item-type-2">
+						<a rel="prettyphoto" href="http://25.media.tumblr.com/fc47ae3432f3681fd3235a82616da16d/tumblr_mgaoyh8Arm1rzgpj2o1_1280.jpg">
+							<span>Imagination</span>
+							<img src="images/work7.jpg" alt=""/>
+						</a>
+					</li>
+					<li class="ff-item-type-2">
+						<a rel="prettyphoto" href="http://24.media.tumblr.com/5ed8beeb0782db91e7252d32f562ca27/tumblr_mgfd6iaing1rzgpj2o1_1280.jpg">
+							<span>The Deep</span>
+							<img src="images/work5.jpg" alt="" />
+						</a>
+					</li>
+					<li class="ff-item-type-1">
+						<a href="http://www.spab-rice.com/themeselector/?theme=mila">
+							<span>Mila</span>
+							<img src="images/work2.jpg" alt="" />
+						</a>
+					</li>
+					<li class="ff-item-type-2">
+						<a rel="prettyphoto" href="http://25.media.tumblr.com/29e065996514d4a94d777a5be017ebab/tumblr_mgfcffi4eY1rzgpj2o1_1280.jpg">
+							<span>Agent Panda</span>
+							<img src="images/work3.jpg" alt="" />
+						</a>
+					</li>
+					<li class="ff-item-type-3">
+						<a rel="prettyphoto" href="http://25.media.tumblr.com/aec65cea2e4691e9b4aaf1e1aae4de19/tumblr_mgfco4JAGp1rzgpj2o1_1280.jpg">
+							<span>Monkey business</span>
+							<img src="images/work4.jpg" alt="" />
+						</a>
+					</li>
+					<li class="ff-item-type-1">
+						<a href="http://themes.tielabs.com/?theme=sokar">
+							<span>Sokar</span>
+							<img src="images/work6.jpg" alt="" />
+						</a>
+					</li>
+					<li class="ff-item-type-3">
+						<a rel="prettyphoto" href="http://25.media.tumblr.com/7a10b71cf5ce10f5a7429ac185f12260/tumblr_mgap20AbZw1rzgpj2o1_1280.jpg">
+							<span>Snowstorm in the City</span>
+							<img src="images/work8.jpg" alt="" />
+						</a>
+					</li>
+					<li class="ff-item-type-1">
+						<a href="http://www.olevmedia.com/themes/preview/?item=metro">
+							<span>Metro</span>
+							<img src="images/work1.jpg" alt="" />
+						</a>
+					</li>
+					
+				</ul>
+				
 
-<script language="Javascript" type="text/javascript">
-$(document).ready(
-  function() {
-    (function($) {
-      $(".fancybox[data-content-id]").each(function() {
-        this.href = $(this).data('content-id');
-      });
-      $(".fancybox").fancybox({
-        beforeLoad: function() {
-          var el, 
-              id = $(this.element).data('title-id');
+			</section>
+		
+		</div><!-- end work -->
+		
+		<div id="contact">
+			<a id="contact_me"></a>
+			<h2>Contact</h2>
+			<div class="theform">
+				<form class="cmxform" id="CommentForm" method="post" action="#">
+						<input type="text" name="ContactName" id="name" placeholder="Name" />  		 
+						<input type="text" name="ContactEmail" id="email" placeholder="Email" />  				  
+					<p class="text">  
+						<textarea name="ContactComment" placeholder="Enter your message here"></textarea>  
+					</p>  
+					<p class="submit">  
+						<input type="submit" value="Send" />  
+					</p>  
+					<label id="loader" style="display:none;"><img src="images/ajax-loader.gif" alt="Loading..." id="LoadingGraphic" /></label>
+					<input class="" type="hidden" name="subject" value="Message from website contact form" />
+				</form>  
+			</div>
+			<div class="extracontact">
+				<div class="contactinfo">If you’d like to send me some feedback or hire me please use the form below to connect with me. I read every email and usually reply within one business day. </div>
+				<ul>
+				<li class="contactname">John Doe</li>
+				<li>(021) 221 123</li>
+				<li>1234 Wall St New York, New York 12345</li>
+				</ul>
+				<div class="socialmedia">
+				<a href="#" class="linkedin" title="LinkedIn"></a>
+				<a href="#" class="dribbble" title="Dribbble"></a>
+				<a href="#" class="twitter" title="Twitter"></a>
+				<a href="#" class="facebook" title="Facebook"></a>
+				<a href="#" class="google" title="Google"></a>
+				<a href="#" class="behance" title="Behance"></a>
+				<a href="#" class="forrst" title="Forrst"></a>
+				</div>
+			</div>
+		</div><!-- end contact -->
+		
+		<div id="footer"></div>
+	</div> <!-- end wrapper --> 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/raphael.js" type="text/javascript"></script>
+	<script src="js/init.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="js/prettyPhoto.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/jquery.validate.min.js" type="text/javascript"></script> <!-- form validation scripts (for contact page) -->
+	<script src="js/contactForm.js" type="text/javascript"></script> <!-- Contact form triggers and AJAX submit -->
+	<script src="js/box-slider-all.jquery.min.js"></script>
+		<script>
 
-          if (id) {
-            el = $('#' + id);
+		  $(function () {
 
-            if (el.length) {
-              this.title = el.html();
-            }
+        var $box = $('#box')
+          , $indicators = $('.goto-slide')
+          , $effects = $('.effect')
+          , $timeIndicator = $('#time-indicator')
+          , slideInterval = 5000
+          , effectOptions = {
+              'blindLeft': {blindCount: 15}
+            , 'blindDown': {blindCount: 15}
+            , 'tile3d': {tileRows: 6, rowOffset: 80}
+            , 'tile': {tileRows: 6, rowOffset: 80}
+          };
+
+        // This function runs before the slide transition starts
+        var switchIndicator = function ($c, $n, currIndex, nextIndex) {
+          // kills the timeline by setting it's width to zero
+          $timeIndicator.stop().css('width', 0);
+          // Highlights the next slide pagination control
+          $indicators.removeClass('current').eq(nextIndex).addClass('current');
+        };
+
+        // This function runs after the slide transition finishes
+        var startTimeIndicator = function () {
+          // start the timeline animation
+          $timeIndicator.animate({width: '680px'}, slideInterval);
+        };
+
+        // initialize the plugin with the desired settings
+        $box.boxSlider({
+            speed: 1000
+          , autoScroll: true
+          , timeout: slideInterval
+          , next: '#next'
+          , prev: '#prev'
+          , pause: '#pause'
+          , effect: 'scrollVert3d'
+          , onbefore: switchIndicator
+          , onafter: startTimeIndicator
+        });
+
+        startTimeIndicator(); // start the time line for the first slide
+
+        // Paginate the slides using the indicator controls
+        $('#controls').on('click', '.goto-slide', function (ev) {
+          $box.boxSlider('showSlide', $(this).data('slideindex'));
+          ev.preventDefault();
+        });
+
+        // This is for demo purposes only, kills the plugin and resets it with 
+        // the newly selected effect FIXME clean this up!
+        $('#effect-list').on('click', '.effect', function (ev) {
+          var $effect = $(this)
+            , fx = $effect.data('fx')
+            , extraOptions = effectOptions[fx];
+
+          $effects.removeClass('current');
+          $effect.addClass('current');
+          switchIndicator(null, null, 0, 0);
+
+          if (extraOptions) {
+            $.each(extraOptions, function (opt, val) {
+              $box.boxSlider('option', opt, val);
+            });
           }
-          if ($(this).data('content')) {
-            this.content = $(this).data('content');
-          }
-        },
-        helpers: {
-          title: {
-            type: 'inside'
-          }
-        }
-      });
-    })(jQuery);
-  }
-);
-</script>
 
-	
-</head>
+          $box.boxSlider('option', 'effect', $effect.data('fx'));
 
+          ev.preventDefault();
+        });
 
-
-<body>
-	<header id="header" class="inner"><h1><a href="/">Logbook{ };</a></h1>
-<h4>Quick fixes</h4>
-<nav id="main-nav"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/portfolio">Portfolio</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/portfolio">Portfolio</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="https://www.google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:http://">
-			</form>
-		</div>
-	</div>
-</nav>
-
-
-</header>
-
-	<div id="content" class="inner"><aside>
-	<h3>Get the book</h3>
-	<p>
-		Sign up to pre-order <a href="/blog/2012/11/14/the-self-taught-developers-guide-to-getting-paid/">The Self-Taught Developer&#8217;s Guide to Getting Paid</a>, receive a free chapter or two, and even a discount if you&#8217;re good boys and girls.
-	</p>
-	<form accept-charset="UTF-8" action="https://sendicate.net/subscribe/3pbngc" method="post"> <label for="subscriber_name">Name</label> <input id="subscriber_name" name="subscriber[name]" type="text" /> <br /> <label for="subscriber_email">Email</label> <input id="subscriber_email" name="subscriber[email]" type="text" /> <br /> <input name="commit" type="submit" value="Subscribe" /> </form>
-</aside>
-</div>
-	<footer id="footer" class="inner">Copyright &copy; 2014
-
-    Francisco Gonzalez
-
-<br>
-Powered by Octopress.
-</footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
-
-
-<h1>Comentarios<h1>
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'logbook46'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-
-
-
-
-
-</body>
+		  });
+		</script>
+		<script type="text/javascript" charset="utf-8">
+		  $(document).ready(function(){
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		  });
+		</script>
+    </body>
 </html>
