@@ -29,13 +29,13 @@ Por un lado, se instala el Octopress propiamente dicho, que contiene el codigo f
 ##**2. INSTALACIÓN**
 
 ##-Antes de empezar
-1. Insalar [Git](http://git-scm.com/)
+1. Instalar [Git](http://git-scm.com/)
 2. Instalar Ruby 1.9.3 o superior utilizando [rbenv](http://octopress.org/docs/setup/rbenv/) o [RVM](http://octopress.org/docs/setup/rvm/)
-(Puedes comprovar la versión de ruby que tienes en tu equipo abriendo un terminal y tecleando ![ruby --version]())
+(Puedes comprobar la versión de ruby que tienes en tu equipo abriendo un terminal y tecleando ![ruby --version]() )
 
 ##-Instalando Octopress
 
-Hacemos un fork de Octopress en nuestro equipo:
+Hacemos un *fork* de Octopress en nuestro equipo:
 
 	git clone git://github.com/imathis/octopress.git octopress
 	cd octopress
