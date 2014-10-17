@@ -40,13 +40,6 @@ rdiscount:
     - footnotes
     - smart
 
-markdown: kramdown
-kramdown:
-  use_coderay: true
-  coderay:
-    coderay_line_numbers: nil
-    coderay_css: class
-
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 
 pygments: false
