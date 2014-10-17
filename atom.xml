@@ -4,7 +4,7 @@
   <title><![CDATA[Logbook{ };]]></title>
   <link href="http:///atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2014-10-17T00:33:32+02:00</updated>
+  <updated>2014-10-17T15:48:40+02:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Francisco Gonzalez]]></name>
@@ -18,25 +18,23 @@
     <link href="http:///blog/2014/10/16/octopress1/"/>
     <updated>2014-10-16T16:22:38+02:00</updated>
     <id>http:///blog/2014/10/16/octopress1</id>
-    <content type="html"><![CDATA[<p><img src="http://blog-guerrero.rhcloud.com/images/octopress2.jpg" alt="Octopress" title="Octopress" /></p>
+    <content type="html"><![CDATA[<p><img src="http://blog-guerrero.rhcloud.com/images/octopress2.jpg" title="Octopress" alt="Octopress" /></p>
 
 <p>En este primer post sobre Octopress vamos a abordar los siguientes puntos:</p>
 
 <ul>
-  <li><em>Conociendo Octopress</em></li>
-  <li><em>Instalación</em></li>
-  <li><em>Configuración</em></li>
+<li><em>Conociendo Octopress</em></li>
+<li><em>Instalación</em></li>
+<li><em>Configuración</em></li>
 </ul>
+
 
 <!--more-->
 
-<h2 id="conociendo-octopress"><strong>1. CONOCIENDO OCTOPRESS</strong></h2>
 
-<blockquote>
-  <blockquote>
-    <p><em>First, I want to stress that Octopress is a blogging framework for hackers. You should be comfortable running shell commands and familiar with the basics of Git. If that sounds daunting, Octopress probably isn’t for you. - <a href="http://octopress.org/">Octopress.org</a></em></p>
-  </blockquote>
-</blockquote>
+<h2><strong>1. CONOCIENDO OCTOPRESS</strong></h2>
+
+<blockquote><blockquote><p><em>First, I want to stress that Octopress is a blogging framework for hackers. You should be comfortable running shell commands and familiar with the basics of Git. If that sounds daunting, Octopress probably isn&rsquo;t for you. - <a href="http://octopress.org/">Octopress.org</a></em></p></blockquote></blockquote>
 
 <p>Octopress es una platarforma de blogging que funciona de una manera especial. En lugar de servir paginas dinamicas con PHP como muchos otros, sirve paginas estaticas. Punto. Sin problemas de seguridad, sin problemas de actualizaciones, y sin (casi xD) problemas de carga (necesita muchiiiiiisima menos potencia en el servidor que un blog con PHP+MySQL, por ejemplo.</p>
 
@@ -44,16 +42,18 @@
 
 <p>Por un lado, se instala el Octopress propiamente dicho, que contiene el codigo fuente, las tareas, etc y por otro lado, tendremos el sitio con las paginas a publicar; el blog en si. Para publicar las paginas, podemos utilizar Heroku, tu propio servidor web, o como en mi caso, Github Pages.</p>
 
-<h2 id="instalacin"><strong>2. INSTALACIÓN</strong></h2>
+<h2><strong>2. INSTALACIÓN</strong></h2>
 
-<h2 id="antes-de-empezar">-Antes de empezar</h2>
+<h2>-Antes de empezar</h2>
+
 <ol>
-  <li>Instalar <a href="http://git-scm.com/">Git</a></li>
-  <li>Instalar Ruby 1.9.3 o superior utilizando <a href="http://octopress.org/docs/setup/rbenv/">rbenv</a> o <a href="http://octopress.org/docs/setup/rvm/">RVM</a>
+<li>Instalar <a href="http://git-scm.com/">Git</a></li>
+<li>Instalar Ruby 1.9.3 o superior utilizando <a href="http://octopress.org/docs/setup/rbenv/">rbenv</a> o <a href="http://octopress.org/docs/setup/rvm/">RVM</a>
 (Puedes comprobar la versión de ruby que tienes en tu equipo abriendo un terminal y tecleando <img src="" alt="ruby --version" /> )</li>
 </ol>
 
-<h2 id="instalando-octopress">-Instalando Octopress</h2>
+
+<h2>-Instalando Octopress</h2>
 
 <p>Hacemos un <em>fork</em> de Octopress en nuestro equipo:</p>
 
@@ -81,9 +81,9 @@ rake preview
 
 <p>Ahora, abrimos el navegador y en localhost:4000 debería estar nuestro blog.</p>
 
-<h2 id="configuracin"><strong>3. CONFIGURACIÓN</strong></h2>
+<h2><strong>3. CONFIGURACIÓN</strong></h2>
 
-<h2 id="configuracin-bsica">Configuración Básica</h2>
+<h2>Configuración Básica</h2>
 
 <p>Aunque no lo creais, configurar Octopress es bastante fácil.Simplemente requiere editar el archivo <img src="" alt="_config.yml" /> que se encuentra en la raíz del directorio del framework. Seguramente quieras cambiar el <img src="" alt="url" />, <img src="" alt="title" />, <img src="" alt="author" /> y habilitar algunos de los conocidos como <em>3rd party services</em>.</p>
 
@@ -100,7 +100,7 @@ category_feeds:     # Habilita los feeds RSS por categoria (por defecto está de
 email:              # Correo electrónico para los feeds del RSS, si lo deseas.
 </code></pre>
 
-<h2 id="jekyll--plugins">Jekyll &amp; Plugins</h2>
+<h2>Jekyll &amp; Plugins</h2>
 
 <p>Estas configuraciones son para la parte de Jekyll y los Plugins del blog. Si no estás familiarizado con Jekyll, te vendrá bien echarle un ojo a la <a href="http://jekyllrb.com/docs/configuration/">documentación de Jekyll</a>; que abarca más opciones que no están cubiertas en el post.</p>
 
@@ -119,26 +119,23 @@ recent_posts:       # Número de posts recientes que aparecen en la barra latera
 default_asides:     # Configurar lo que aparece en la barra lateral y en qué orden
 </code></pre>
 
-<h2 id="rd-party-services">3rd Party Services</h2>
+<h2>3rd Party Services</h2>
 
 <p>Estos servicios ya vienen integrados en Octopress por defecto, simplemente hay que rellenar la configuración de los componentes que queremos usar en nuestro blog.</p>
 
 <ul>
-  <li><strong>Github</strong>. Lista tu repositorio de Github en la barra lateral</li>
-  <li><strong>Twitter</strong>. Añade un botón para compartir posts en Twitter</li>
-  <li><strong>Google Plus One</strong>. Configuración para compartir mensajes y páginas en la red social Google+</li>
-  <li><strong>Pinboard</strong>. Comparta sus marcadores recientes de Pinboard en la barra lateral</li>
-  <li><strong>Delicious</strong>. Comparta sus marcadores recientes de Delicious en la barra lateral</li>
-  <li><strong>Disqus Comments</strong>. Añadir nombre disqus para permitir comentarios en el blog</li>
-  <li><strong>Google Analytics</strong>. Agregar ID de Google Analytics para permitir el seguimiento del blog</li>
-  <li><strong>Facebook</strong>. Añadir botón de “Like” en Facebook</li>
+<li><strong>Github</strong>. Lista tu repositorio de Github en la barra lateral</li>
+<li><strong>Twitter</strong>. Añade un botón para compartir posts en Twitter</li>
+<li><strong>Google Plus One</strong>. Configuración para compartir mensajes y páginas en la red social Google+</li>
+<li><strong>Pinboard</strong>. Comparta sus marcadores recientes de Pinboard en la barra lateral</li>
+<li><strong>Delicious</strong>. Comparta sus marcadores recientes de Delicious en la barra lateral</li>
+<li><strong>Disqus Comments</strong>. Añadir nombre disqus para permitir comentarios en el blog</li>
+<li><strong>Google Analytics</strong>. Agregar ID de Google Analytics para permitir el seguimiento del blog</li>
+<li><strong>Facebook</strong>. Añadir botón de &ldquo;Like&rdquo; en Facebook</li>
 </ul>
 
-<blockquote>
-  <blockquote>
-    <p>Los diseños de Octopress leen estas configuraciones y sólo incluyen el JavaScript y HTML necesarios para los servicios habilitados.</p>
-  </blockquote>
-</blockquote>
+
+<blockquote><blockquote><p>Los diseños de Octopress leen estas configuraciones y sólo incluyen el JavaScript y HTML necesarios para los servicios habilitados.</p></blockquote></blockquote>
 
 <p>Y aquí termina la configuración básica de nuestro nuevo y flamante blog basado en la tecnología Octopress. En el próximo post explicaré como instalar una plantilla distinta a la que trae por defecto y la creación de nuestro primer post con Markdown. Espero que os sirva de utilidad y que os animéis a probar Octopress, ¡os va a encantar! :P</p>
 ]]></content>
@@ -149,7 +146,7 @@ default_asides:     # Configurar lo que aparece en la barra lateral y en qué or
     <link href="http:///blog/2014/10/15/ftw/"/>
     <updated>2014-10-15T23:26:24+02:00</updated>
     <id>http:///blog/2014/10/15/ftw</id>
-    <content type="html"><![CDATA[<p><img src="http://www.annehelmond.nl/wordpress/wp-content/uploads/2007/11/logo_mit.png" alt="LOGO" title="LOGO" /></p>
+    <content type="html"><![CDATA[<p><img src="http://www.annehelmond.nl/wordpress/wp-content/uploads/2007/11/logo_mit.png" title="LOGO" alt="LOGO" /></p>
 
 <p>El lenguaje de programación LOGO fue desarrollado en los años sesenta del pasado siglo en el MIT (Instituto Tecnológico de Massachusetts) con el objetivo de crear un lenguaje sencillo destinado a fines educativos y control de sistemas.</p>
 
@@ -157,22 +154,24 @@ default_asides:     # Configurar lo que aparece en la barra lateral y en qué or
 
 <!--more-->
 
-<h3 id="rdenes-primitivas">Órdenes Primitivas:</h3>
+
+<h3>Órdenes Primitivas:</h3>
 
 <ul>
-  <li><strong>BORRAPANTALLABP</strong> Deja en blanco la ventana</li>
-  <li><strong>AVANZA nAV n</strong> La tortuga avanza una distancia n</li>
-  <li><strong>RETROCEDE nRE n</strong> La tortuga retrocede una distancia n</li>
-  <li><strong>GIRADERECHA nGD n</strong> La tortuga gira un ángulo n hacia la derecha</li>
-  <li><strong>GIRAIZQUIERDA nGI n</strong> La tortuga gira un ángulo n hacia la izquierda</li>
-  <li><strong>SUBELÁPIZ SL</strong> La tortuga no deja trazo al desplazarse</li>
-  <li><strong>BAJALÁPIZ BL</strong> La tortuga dibuja su trayectoria a medida que se desplaza</li>
-  <li><strong>PONCOLOR nPONCL n</strong> Cambia el color de la tortuga</li>
-  <li><strong>RELLENA</strong> Colorea el interior de una figura cerrada</li>
-  <li><strong>REPITE n[…]</strong> Repite n veces la orden indicada entre los corchetes</li>
-  <li><strong>ESPERA n</strong> Espera un tiempo n antes de realizar la siguiente acción</li>
-  <li><strong>OCULTATORTUGA OT</strong> Oculta todas las tortugas que estén activas</li>
+<li><strong>BORRAPANTALLABP</strong> Deja en blanco la ventana</li>
+<li><strong>AVANZA nAV n</strong> La tortuga avanza una distancia n</li>
+<li><strong>RETROCEDE nRE n</strong> La tortuga retrocede una distancia n</li>
+<li><strong>GIRADERECHA nGD n</strong> La tortuga gira un ángulo n hacia la derecha</li>
+<li><strong>GIRAIZQUIERDA nGI n</strong> La tortuga gira un ángulo n hacia la izquierda</li>
+<li><strong>SUBELÁPIZ SL</strong> La tortuga no deja trazo al desplazarse</li>
+<li><strong>BAJALÁPIZ BL</strong> La tortuga dibuja su trayectoria a medida que se desplaza</li>
+<li><strong>PONCOLOR nPONCL n</strong> Cambia el color de la tortuga</li>
+<li><strong>RELLENA</strong> Colorea el interior de una figura cerrada</li>
+<li><strong>REPITE n[&hellip;]</strong> Repite n veces la orden indicada entre los corchetes</li>
+<li><strong>ESPERA n</strong> Espera un tiempo n antes de realizar la siguiente acción</li>
+<li><strong>OCULTATORTUGA OT</strong> Oculta todas las tortugas que estén activas</li>
 </ul>
+
 
 <p>Si queremos indicar un grupo de instrucciones que ocupen varias líneas, de forma que el ordenador entienda todo ello como un conjunto y lo ejecute a la vez, se debe definir un procedimiento, que ya constituye un programa propiamente dicho.</p>
 
@@ -190,10 +189,11 @@ default_asides:     # Configurar lo que aparece en la barra lateral y en qué or
 
 <p><strong>SI TECLA? [ALTO]</strong></p>
 
-<p>-&gt;<a href="http://rbytes.org/descargar/cat/educativos/varios/xlogo/#">Descargar XLogo (versión libre)</a>&lt;-</p>
+<p style="text-align:center;"><a href="http://rbytes.org/descargar/cat/educativos/varios/xlogo/#">Descargar XLogo (versión libre)</a></p>
 
 <hr />
-<p><img src="http://www.naec.org.uk/artefacts/photos/Jessop%20Turtle.JPG/image_preview" alt="Esta es una tortuga que se conecta via infrarojo y se mueve con este programa:" title="Tortuga_LOGO" /></p>
+
+<p><img src="http://www.naec.org.uk/artefacts/photos/Jessop%20Turtle.JPG/image_preview" title="Tortuga_LOGO" alt="Esta es una tortuga que se conecta via infrarojo y se mueve con este programa:" /></p>
 ]]></content>
   </entry>
   
@@ -202,12 +202,14 @@ default_asides:     # Configurar lo que aparece en la barra lateral y en qué or
     <link href="http:///blog/2014/10/15/origin/"/>
     <updated>2014-10-15T22:30:00+02:00</updated>
     <id>http:///blog/2014/10/15/origin</id>
-    <content type="html"><![CDATA[<p><img src="http://i60.tinypic.com/21152tg.jpg" alt="Software Programmer" title="Software Programmer" /></p>
+    <content type="html"><![CDATA[<p><img src="http://i60.tinypic.com/21152tg.jpg" title="Software Programmer" alt="Software Programmer" /></p>
 
 <p>¡Por fin en la nube! Ha costado lo suyo pero lo he conseguido hahahahaha
 Hace unos días, me dio por montar un blog. Si, así de impulsivo soy, y ya que estaba trabajando con la tecnología de <a href="http://octopress.org/">Octopress</a> pues me dije Let’s go! Y aquí estamos.</p>
 
 <!--more-->
+
+
 <p>Ya fuera de cachondeo, llevaba tiempo pensando en hacer un blog tecnológico. Un blog donde poner lo que día a día voy aprendiendo, descubriendo y cacharreando. Soluciones, técnicas y métodos que voy aprendiendo (si, soy otro kamikaze que estudia Ingeniería del Software xD) en mi carrera.</p>
 
 <p>Lo primero que quiero abordar, ya que este blog está montado con tecnología Octopress y alojado en Github, es eso mismo: <strong>“Cómo crear tu propio blog mediante Octopress y subirlo a Github Pages”</strong>.</p>
@@ -215,7 +217,6 @@ Hace unos días, me dio por montar un blog. Si, así de impulsivo soy, y ya que 
 <p>Aún no he pensado si lo haré todo en un súper post-tocho en el que abarcaré todo, o lo dividiré en dos o tres “entregas” para que no se haga muy pesado. Haga lo que haga, voy a empezar por ahí. Pero tengo mucho más que compartir.</p>
 
 <p>Así que nada, para los que os topéis de casualidad con mi blog… <strong>NO OS VAYAIS, QUEDAOS</strong>. Pronto habrá más ;)</p>
-
 ]]></content>
   </entry>
   

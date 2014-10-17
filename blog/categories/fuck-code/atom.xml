@@ -4,7 +4,7 @@
   <title><![CDATA[Category: fuck_code | Logbook{ };]]></title>
   <link href="http:///blog/categories/fuck-code/atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2014-10-17T00:33:32+02:00</updated>
+  <updated>2014-10-17T15:48:40+02:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Francisco Gonzalez]]></name>
@@ -18,7 +18,7 @@
     <link href="http:///blog/2014/10/15/ftw/"/>
     <updated>2014-10-15T23:26:24+02:00</updated>
     <id>http:///blog/2014/10/15/ftw</id>
-    <content type="html"><![CDATA[<p><img src="http://www.annehelmond.nl/wordpress/wp-content/uploads/2007/11/logo_mit.png" alt="LOGO" title="LOGO" /></p>
+    <content type="html"><![CDATA[<p><img src="http://www.annehelmond.nl/wordpress/wp-content/uploads/2007/11/logo_mit.png" title="LOGO" alt="LOGO" /></p>
 
 <p>El lenguaje de programación LOGO fue desarrollado en los años sesenta del pasado siglo en el MIT (Instituto Tecnológico de Massachusetts) con el objetivo de crear un lenguaje sencillo destinado a fines educativos y control de sistemas.</p>
 
@@ -26,22 +26,24 @@
 
 <!--more-->
 
-<h3 id="rdenes-primitivas">Órdenes Primitivas:</h3>
+
+<h3>Órdenes Primitivas:</h3>
 
 <ul>
-  <li><strong>BORRAPANTALLABP</strong> Deja en blanco la ventana</li>
-  <li><strong>AVANZA nAV n</strong> La tortuga avanza una distancia n</li>
-  <li><strong>RETROCEDE nRE n</strong> La tortuga retrocede una distancia n</li>
-  <li><strong>GIRADERECHA nGD n</strong> La tortuga gira un ángulo n hacia la derecha</li>
-  <li><strong>GIRAIZQUIERDA nGI n</strong> La tortuga gira un ángulo n hacia la izquierda</li>
-  <li><strong>SUBELÁPIZ SL</strong> La tortuga no deja trazo al desplazarse</li>
-  <li><strong>BAJALÁPIZ BL</strong> La tortuga dibuja su trayectoria a medida que se desplaza</li>
-  <li><strong>PONCOLOR nPONCL n</strong> Cambia el color de la tortuga</li>
-  <li><strong>RELLENA</strong> Colorea el interior de una figura cerrada</li>
-  <li><strong>REPITE n[…]</strong> Repite n veces la orden indicada entre los corchetes</li>
-  <li><strong>ESPERA n</strong> Espera un tiempo n antes de realizar la siguiente acción</li>
-  <li><strong>OCULTATORTUGA OT</strong> Oculta todas las tortugas que estén activas</li>
+<li><strong>BORRAPANTALLABP</strong> Deja en blanco la ventana</li>
+<li><strong>AVANZA nAV n</strong> La tortuga avanza una distancia n</li>
+<li><strong>RETROCEDE nRE n</strong> La tortuga retrocede una distancia n</li>
+<li><strong>GIRADERECHA nGD n</strong> La tortuga gira un ángulo n hacia la derecha</li>
+<li><strong>GIRAIZQUIERDA nGI n</strong> La tortuga gira un ángulo n hacia la izquierda</li>
+<li><strong>SUBELÁPIZ SL</strong> La tortuga no deja trazo al desplazarse</li>
+<li><strong>BAJALÁPIZ BL</strong> La tortuga dibuja su trayectoria a medida que se desplaza</li>
+<li><strong>PONCOLOR nPONCL n</strong> Cambia el color de la tortuga</li>
+<li><strong>RELLENA</strong> Colorea el interior de una figura cerrada</li>
+<li><strong>REPITE n[&hellip;]</strong> Repite n veces la orden indicada entre los corchetes</li>
+<li><strong>ESPERA n</strong> Espera un tiempo n antes de realizar la siguiente acción</li>
+<li><strong>OCULTATORTUGA OT</strong> Oculta todas las tortugas que estén activas</li>
 </ul>
+
 
 <p>Si queremos indicar un grupo de instrucciones que ocupen varias líneas, de forma que el ordenador entienda todo ello como un conjunto y lo ejecute a la vez, se debe definir un procedimiento, que ya constituye un programa propiamente dicho.</p>
 
@@ -59,10 +61,11 @@
 
 <p><strong>SI TECLA? [ALTO]</strong></p>
 
-<p>-&gt;<a href="http://rbytes.org/descargar/cat/educativos/varios/xlogo/#">Descargar XLogo (versión libre)</a>&lt;-</p>
+<p style="text-align:center;"><a href="http://rbytes.org/descargar/cat/educativos/varios/xlogo/#">Descargar XLogo (versión libre)</a></p>
 
 <hr />
-<p><img src="http://www.naec.org.uk/artefacts/photos/Jessop%20Turtle.JPG/image_preview" alt="Esta es una tortuga que se conecta via infrarojo y se mueve con este programa:" title="Tortuga_LOGO" /></p>
+
+<p><img src="http://www.naec.org.uk/artefacts/photos/Jessop%20Turtle.JPG/image_preview" title="Tortuga_LOGO" alt="Esta es una tortuga que se conecta via infrarojo y se mueve con este programa:" /></p>
 ]]></content>
   </entry>
   
@@ -71,12 +74,14 @@
     <link href="http:///blog/2014/10/15/origin/"/>
     <updated>2014-10-15T22:30:00+02:00</updated>
     <id>http:///blog/2014/10/15/origin</id>
-    <content type="html"><![CDATA[<p><img src="http://i60.tinypic.com/21152tg.jpg" alt="Software Programmer" title="Software Programmer" /></p>
+    <content type="html"><![CDATA[<p><img src="http://i60.tinypic.com/21152tg.jpg" title="Software Programmer" alt="Software Programmer" /></p>
 
 <p>¡Por fin en la nube! Ha costado lo suyo pero lo he conseguido hahahahaha
 Hace unos días, me dio por montar un blog. Si, así de impulsivo soy, y ya que estaba trabajando con la tecnología de <a href="http://octopress.org/">Octopress</a> pues me dije Let’s go! Y aquí estamos.</p>
 
 <!--more-->
+
+
 <p>Ya fuera de cachondeo, llevaba tiempo pensando en hacer un blog tecnológico. Un blog donde poner lo que día a día voy aprendiendo, descubriendo y cacharreando. Soluciones, técnicas y métodos que voy aprendiendo (si, soy otro kamikaze que estudia Ingeniería del Software xD) en mi carrera.</p>
 
 <p>Lo primero que quiero abordar, ya que este blog está montado con tecnología Octopress y alojado en Github, es eso mismo: <strong>“Cómo crear tu propio blog mediante Octopress y subirlo a Github Pages”</strong>.</p>
@@ -84,7 +89,6 @@ Hace unos días, me dio por montar un blog. Si, así de impulsivo soy, y ya que 
 <p>Aún no he pensado si lo haré todo en un súper post-tocho en el que abarcaré todo, o lo dividiré en dos o tres “entregas” para que no se haga muy pesado. Haga lo que haga, voy a empezar por ahí. Pero tengo mucho más que compartir.</p>
 
 <p>Así que nada, para los que os topéis de casualidad con mi blog… <strong>NO OS VAYAIS, QUEDAOS</strong>. Pronto habrá más ;)</p>
-
 ]]></content>
   </entry>
   
